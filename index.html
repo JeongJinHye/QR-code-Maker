@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>QR code Maker</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Enter your text or URL</p>
+      <input typt="text" placeholder="Text or URL" id="qrText" />
+      <div id="imgBox">
+        <img src="" id="qrImage" />
+      </div>
+      <button onclick="generateQR()">Generate QR code</button>
+    </div>
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
